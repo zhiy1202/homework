@@ -1,0 +1,16 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: bishe2
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/homework?serverTimezone=UTC&useSSL=false
+    username: root
+    password: 333
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
